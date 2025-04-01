@@ -1,0 +1,155 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>this.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\Resources\alchimiste.png" />
+    <None Remove="Properties\Resources\bucheron.png" />
+    <None Remove="Properties\Resources\fight.png" />
+    <None Remove="Properties\Resources\mineur.png" />
+    <None Remove="Properties\Resources\paysan.png" />
+    <None Remove="Resources\alchimiste.png" />
+    <None Remove="Resources\bucheron.png" />
+    <None Remove="Resources\fight.png" />
+    <None Remove="Resources\mineur.png" />
+    <None Remove="Resources\paysan.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="this.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\alchimiste.png" />
+    <EmbeddedResource Include="Properties\Resources\bucheron.png" />
+    <EmbeddedResource Include="Properties\Resources\fight.png" />
+    <EmbeddedResource Include="Properties\Resources\mineur.png" />
+    <EmbeddedResource Include="Properties\Resources\paysan.png" />
+    <EmbeddedResource Include="Resources\alchimiste.png" />
+    <EmbeddedResource Include="Resources\bucheron.png" />
+    <EmbeddedResource Include="Resources\fight.png" />
+    <EmbeddedResource Include="Resources\mineur.png" />
+    <EmbeddedResource Include="Resources\paysan.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OpenCvSharp4" Version="4.10.0.20241108" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.10.0.20241108" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.10.0.20241108" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="alchimiste.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>alchimiste.resx</DependentUpon>
+    </Compile>
+    <Compile Update="bucheron.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>bucheron.resx</DependentUpon>
+    </Compile>
+    <Compile Update="fight.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>fight.resx</DependentUpon>
+    </Compile>
+    <Compile Update="huntimage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>huntimage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="mineur.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>mineur.resx</DependentUpon>
+    </Compile>
+    <Compile Update="monster.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>monster.resx</DependentUpon>
+    </Compile>
+    <Compile Update="paysan.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>paysan.resx</DependentUpon>
+    </Compile>
+    <Compile Update="peche.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>peche.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="TreasureHunter.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TreasureHunter.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="alchimiste.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>alchimiste.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="bucheron.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>bucheron.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="fight.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>fight.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="huntimage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>huntimage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="mineur.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>mineur.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="monster.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>monster.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="paysan.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>paysan.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="peche.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>peche.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TreasureHunter.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TreasureHunter.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

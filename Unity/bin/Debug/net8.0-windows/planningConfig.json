@@ -1,0 +1,98 @@
+[
+  {
+    "Hour": 0,
+    "IsActive": true
+  },
+  {
+    "Hour": 1,
+    "IsActive": true
+  },
+  {
+    "Hour": 2,
+    "IsActive": true
+  },
+  {
+    "Hour": 3,
+    "IsActive": true
+  },
+  {
+    "Hour": 4,
+    "IsActive": true
+  },
+  {
+    "Hour": 5,
+    "IsActive": true
+  },
+  {
+    "Hour": 6,
+    "IsActive": true
+  },
+  {
+    "Hour": 7,
+    "IsActive": true
+  },
+  {
+    "Hour": 8,
+    "IsActive": true
+  },
+  {
+    "Hour": 9,
+    "IsActive": true
+  },
+  {
+    "Hour": 10,
+    "IsActive": true
+  },
+  {
+    "Hour": 11,
+    "IsActive": true
+  },
+  {
+    "Hour": 12,
+    "IsActive": true
+  },
+  {
+    "Hour": 13,
+    "IsActive": true
+  },
+  {
+    "Hour": 14,
+    "IsActive": true
+  },
+  {
+    "Hour": 15,
+    "IsActive": true
+  },
+  {
+    "Hour": 16,
+    "IsActive": true
+  },
+  {
+    "Hour": 17,
+    "IsActive": true
+  },
+  {
+    "Hour": 18,
+    "IsActive": true
+  },
+  {
+    "Hour": 19,
+    "IsActive": true
+  },
+  {
+    "Hour": 20,
+    "IsActive": true
+  },
+  {
+    "Hour": 21,
+    "IsActive": true
+  },
+  {
+    "Hour": 22,
+    "IsActive": true
+  },
+  {
+    "Hour": 23,
+    "IsActive": true
+  }
+]
